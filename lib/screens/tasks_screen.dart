@@ -8,6 +8,7 @@ class TasksScreen extends StatelessWidget {
         floatingActionButton: FloatingActionButton(
           backgroundColor: Colors.lightBlueAccent,
           child: Icon(Icons.add),
+          onPressed: null,
         ),
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -60,6 +61,7 @@ class TasksScreen extends StatelessWidget {
                     title: Text('Feed the cats.'),
                     trailing: Checkbox(
                       value: false,
+                      onChanged: null,
                     ),
                   ),
                 ],
